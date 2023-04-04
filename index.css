@@ -1,0 +1,136 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    font-family: 'Hind', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0px 100px;
+    grid-row-gap: 0px 5px 5px 5px 5px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.aboutUs_button {
+    grid-column: 1;
+    grid-row: 2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Hind', sans-serif;
+    appearance: none;
+    border: 0;
+    background: #fff;
+    color: #0b5e69;
+    /* padding: 8px 16px; */
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.aboutUs_button:hover {
+    color: #8e103e;
+    transition: 0.7s;
+}
+
+.class7_button {
+    grid-column: 1;
+    grid-row: 3;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Hind', sans-serif;
+    appearance: none;
+    border: 0;
+    background: #fff;
+    color: #3d331b;
+    /* padding: 8px 16px; */
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.class7_button:hover {
+    color: #8e103e;
+    transition: 0.7s;
+}
+
+.class8_button {
+    grid-column: 1;
+    grid-row: 4;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Hind', sans-serif;
+    appearance: none;
+    border: 0;
+    background: #fff;
+    color: #3d331b;
+    /* padding: 8px 16px; */
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.class8_button:hover {
+    color: #8e103e;
+    transition: 0.7s;
+}
+
+.class9_button {
+    grid-column: 1;
+    grid-row: 5;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Hind', sans-serif;
+    appearance: none;
+    border: 0;
+    background: #fff;
+    color: #3d331b;
+    /* padding: 8px 16px; */
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.class9_button:hover {
+    color: #8e103e;
+    transition: 0.7s;
+}
+
+/* .cross_button>img {
+    grid-column: 3;
+    grid-row: 1;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    appearance: none;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+} */
+
+/* .cross_button:hover {
+    transition: 0.7s;
+} */
+
+.text {
+    grid-column: 2;
+    grid-row: 4;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Hind', sans-serif;
+    color: #a08014;
+    font-size: 2rem;
+}
+
+.QR_code {
+    grid-column: 3;
+    grid-row: 6;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Hind', sans-serif;
+    /* background: #a08014; */
+    color: #000000;
+    font-size: 2rem;
+}
